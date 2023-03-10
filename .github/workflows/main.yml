@@ -9,8 +9,8 @@ env:
   
   APP_NAME: "com.twentybet.caino"
   
-  AndroidKeystorePass: "qwerty12345Q"
-  AndroidKeyaliasPass: "qwerty12345Q"
+  AndroidKeystorePass: "qwerty"
+  AndroidKeyaliasPass: "qwerty"
   AndroidKeyaliasName: "qwerty12345q"
   
   ChatID_APK: "1034562126"
