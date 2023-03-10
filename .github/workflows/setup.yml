@@ -42,11 +42,11 @@ jobs:
           #name: ${{ env.APP_NAME }}
           #path: build/Android
               
-  SendTelegramNotify:
-    runs-on: ubuntu-latest
-    name: Send Telegram Notify
+  #SendTelegramNotify:
+    #runs-on: ubuntu-latest
+    #name: Send Telegram Notify
     
-    steps: 
+    #steps: 
       #- uses: actions/checkout@v2
       
       #- uses: actions/download-artifact@v2
