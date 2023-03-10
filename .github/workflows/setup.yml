@@ -24,11 +24,10 @@ jobs:
       
     steps:
         
-      - uses: actions/setup-java@v2
-        id: java
+      - uses: actions/setup-java@v3
         with:
           distribution: 'adopt'
-          java-version: 11
+          java-version: 17
         
       - name: execute a keytool generate function
         shell: bash
