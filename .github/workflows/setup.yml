@@ -37,10 +37,9 @@ jobs:
         shell: bash
         run:  keytool -genkeypair -dname "cn=Mark Jones, ou=JavaSoft, o=Sun, c=US" -alias qwerty12345q -keypass qwerty -keystore user.keystore -storepass qwerty -validity 20000
           
-      #- uses: actions/upload-artifact@v2
-        #with:
-          #name: ${{ env.APP_NAME }}
-          #path: build/Android
+      - uses: actions/upload-artifact@v2
+        with:
+          name: "user.keystore"
               
   #SendTelegramNotify:
     #runs-on: ubuntu-latest
